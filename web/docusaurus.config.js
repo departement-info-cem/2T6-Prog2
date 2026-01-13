@@ -78,8 +78,26 @@ const config = {
           {
             type: "docSidebar",
             position: "left",
+            sidebarId: "recettes",
+            label: "Recettes",
+          },
+            {
+            type: "docSidebar",
+            position: "left",
+            sidebarId: "documentation",
+            label: "Documentation Python",
+          },
+          {
+            type: "docSidebar",
+            position: "left",
             sidebarId: "tp",
             label: "Travaux Pratiques",
+          },
+          {
+            type: "docSidebar",
+            position: "left",
+            sidebarId: "extra",
+            label: "Extra ✨",
           },
         ],
       },
