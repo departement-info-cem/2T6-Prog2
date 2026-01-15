@@ -1,6 +1,6 @@
 ---
-title: 1 - Intro Au cours
-description: expressions, opérateurs, types, variables
+title: 1.1 - Intro Au Cours
+description: Python, VSCode, GitHub
 hide_table_of_contents: true
 ---
 
