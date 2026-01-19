@@ -14,29 +14,40 @@ import TabItem from '@theme/TabItem';
 <Tabs queryString="onglet">
 
     <TabItem value="Plan" label="Plan de cours" default>
-        :::note Notez
-        zone de note
+        :::tip Cours de Programmation Objet en TI
+        Le plan de cours est disponible sur LÉA.
+        Notez que :
+        - Le cours est en Python.  
+         Il s'agit d'un nouveau langage et donc les premières rencontres consisteront en une révision des concepts du cours de programmation 1, mais dans le langage Python.
+        - L'emphase du cours est sur les Principes de Programmation Orientée Objet.
+        - Vous allez réutiliser les concepts du cours dans le cours 3T5-Automatisation de tâches et dans le 6X5-EM Projet en TI.
+        - Python est le langage préféré pour la gestion de réseaux Linux.
+
         :::
 
-        :::test
-        zone normal
-        :::
+        :::info Notez
+        Les travaux pratiques vont être commencés durant les séances de cours et vont nécessiter plusieurs remises via GitHub.
         
-
-        :::tip 
-        tip
+        La présence en cours est **obligatoire**. Une absence à 20% des séances peut entrainer une expulsion.
+        
         :::
 
-        :::info information
-        zone info
+
+        :::warning  Attention à l'IA
+        L'utilisation d'intelligence artificielle générative (IAg) peut être tentante, toutefois, cela nuit à votre apprentissage dans le cadre du cours.
+
+        Les problèmes vus en cours sont là pour faciliter votre apprentissage. Oui, une IAg est capable de faire le code pour passer à travers une liste ou traiter un fichier texte. Le but est que vous appreniez comment le faire par vous-mêmes. Si vous utilisez une IAg pour répondre aux questions, vous n'apprendrez rien.
+
+        L'utilisation d'IAg est donc **interdite** dans le cadre du cours.
         :::
 
-        :::warning  attention à l'IA
-        zone warning
-        :::
-
-        :::danger attention !!!1
-        zone danger
+        :::danger Plagiat →  0%
+        Donner son travail à quelqu'un d'autre est un cas de plagiat, les deux personnes ayant remis le travail ont 0 et un rapport
+        
+        Faire un travail individuel en équipe et être plusieurs à remettre le même travail est un cas de plagiat.
+        
+        L'utilisation d'IA pour générer le code utilisé dans les projets est du plagiat. Vous devez comprendre et être capable d'expliquer vos travaux.
+        
         :::
 
 
