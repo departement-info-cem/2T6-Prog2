@@ -103,7 +103,7 @@ import TabItem from '@theme/TabItem';
                 <th>Même code en Python</th>
             </tr>
             <tr>
-                <td>
+                <td valign="top">
                 
                     ```csharp
                     Console.Write("Entrez votre nom : ");
@@ -119,8 +119,8 @@ import TabItem from '@theme/TabItem';
                     }
                     else if (age < 18)
                     {
-                        Console.WriteLine("Vous ne pouvez pas accéder au gym sans être accompagné(e).");
-                        Console.WriteLine("Assurez-vous d'être accompagné lors de votre visite");
+                        Console.WriteLine($"Bienvenue au Gym. ({age} ans)");
+                        Console.WriteLine("Vous devez être accompagné.");
                     }
                     else 
                     { 
@@ -129,7 +129,7 @@ import TabItem from '@theme/TabItem';
                     ```
                 
                 </td>
-                <td>
+                <td valign="top">
 
                     ```python
                     prenom:str = input("Entrez votre nom : ")
@@ -139,10 +139,10 @@ import TabItem from '@theme/TabItem';
                         print("Vous ne pouvez pas accéder au gym.")
                         print(f"Revenez dans {14 - age} ans avec un accompagnateur.")
                     elif age < 18 :
-                        print("Vous ne pouvez pas accéder au gym sans être accompagné(e).")
-                        print("Assurez-vous d'être accompagné lors de votre visite")
+                        print(f"Bienvenue au Gym. ({age} ans)")
+                        print("Vous devez être accompagné.")
                     else :
-                        print(f"Bienvenue au gym {prenom}! ({age} ans)")
+                        print(f"Bienvenue au gym {prenom}!")
                     ```
 
                 </td>
@@ -151,8 +151,11 @@ import TabItem from '@theme/TabItem';
 
         :::note notez:
 
-        - Python n'utilise **PAS** les accolades
-        - **:** et espaces
+        - Python n'utilise **PAS** les accolades pour déterminer les blocs de code.
+
+        Le langage utilise les espaces (ou tabulations) et les **:** pour indiquer les blocs de code.
+
+        - L'indicateur de type est *optionnel* et après la déclaration de la variable.
 
 
         :::       
