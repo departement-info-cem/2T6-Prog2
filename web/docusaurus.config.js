@@ -69,18 +69,19 @@ const config = {
           src: "img/logo.svg",
         },
         items: [
+          /*
           {
             type: "doc",
             docId: "cours/rencontre1.1",
             position: "left",
             label: "Cours",
-          },
+          }, */
           {
             type: "docSidebar",
             position: "left",
             sidebarId: "recettes",
             label: "Recettes",
-          },
+          },/*
             {
             type: "docSidebar",
             position: "left",
@@ -92,7 +93,7 @@ const config = {
             position: "left",
             sidebarId: "tp",
             label: "Travaux Pratiques",
-          },
+          },*/
           {
             type: "docSidebar",
             position: "left",
